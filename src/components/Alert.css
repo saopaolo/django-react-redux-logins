@@ -1,0 +1,24 @@
+.alert {
+    width: 100%;
+    font-size: 1.6rem;
+    color: white;
+    padding: 1rem 2rem;
+    position: absolute !important;
+    top: 110%;
+    border-radius: 10px;
+    margin: 0 !important;
+    font-weight: 600;
+}
+
+.alert__success {
+    background-color: #78eb64;
+    width: 97%;
+}
+.alert__error {
+    background-color: rgb(238, 104, 104);
+    width: 97%;
+}
+.alert__warning {
+    background-color: rgb(238, 183, 82);
+    width: 97%;
+}

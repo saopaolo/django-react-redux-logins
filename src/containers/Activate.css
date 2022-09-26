@@ -1,0 +1,33 @@
+.activation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 35px;
+}
+.activation {
+    font-size: 3.2rem;
+    color: rgb(94, 159, 202);
+    margin-top: 2rem;
+}
+.activation__title {
+    font-size: 3.2rem;
+    color: rgb(94, 159, 202);
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+}
+.activation__lead {
+    font-size: 2.4rem;
+        color: rgb(30, 30, 121);
+        margin-bottom: 1rem;
+}
+
+.activation__button__primary {
+    width: 100%;
+    cursor: pointer;
+    text-transform: none !important;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    font-family: 'Lora' !important;
+}

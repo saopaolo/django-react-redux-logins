@@ -1,0 +1,22 @@
+.welcomePageHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.go__down {
+    color: #5AFF3D;
+    font-size: 4rem !important;
+}
+
+.welcome__title, .welcome__color__text {
+    color: #fff;
+    font-size: 4rem;
+}
+.welcome__color__text__pro {
+    color: #5AFF3D;
+}
+.welcome__box {
+    text-align: center;
+}

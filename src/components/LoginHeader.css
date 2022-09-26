@@ -1,0 +1,51 @@
+.loginHeader {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+    top: 0;
+} 
+
+.loginHeader__left {
+    flex: 7;
+    margin-left: 4%;
+}
+.logo {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 40px;
+    color: #505fc9;
+    height: 60px;
+}
+
+.loginHeader__right {
+    display: flex;
+    flex: 3;
+}
+
+.loginHeader__loginButton, .loginHeader__signupButton, .loginHeader__logoutButton {
+    text-decoration: none;
+}
+.loginHeader__loginButton > button, .loginHeader__signupButton > button, .loginHeader__logoutButton > button  {
+    background-color: white;
+    color: #505fc9;
+    font-weight: 900;
+    font-size: 22px;
+    text-transform: none;
+    margin-left: 5px;
+    font-family: 'Lora';
+}
+
+.loginHeader__max__right{
+    flex: 2;
+}
+.loginHeader__sortIcon {
+    color: #505fc9;
+    cursor: pointer;
+    margin-top: 8px;
+    font-size: 2.5rem !important;
+}

@@ -1,0 +1,8 @@
+.home {
+    background-color: rgb(231, 229, 229);
+}
+
+.home__body {
+    display: flex;
+    width: 100%;
+}

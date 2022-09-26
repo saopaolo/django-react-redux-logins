@@ -1,0 +1,43 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 35px;
+}
+.login__title {
+    font-size: 3.2rem;
+    color: rgb(94, 159, 202);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.login__lead {
+    font-size: 2.4rem;
+        color: rgb(30, 30, 121);
+        margin-bottom: 1rem;
+}
+.login__form, .login__form__group {
+    margin-bottom: 1rem;
+}
+.login__form__input {
+    font-size: 1.4rem;
+    padding: 0.7rem 1.5rem;
+    outline-color: rgb(100, 158, 197);
+}
+.link__to__Signup, .link__to__resetPassword {
+    font-size: 1.3rem;
+}
+.login__link, .reset__password__link {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login__button__main {
+    width: 100%;
+    cursor: pointer;
+    text-transform: none !important;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    font-family: 'Lora' !important;
+}
